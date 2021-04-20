@@ -1,0 +1,16 @@
+.logo {
+    height: 105px;
+    width: 105px;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+.design {
+    font-family: 'Abel', sans-serif;
+}
+
+#buttons {
+    list-style: none;
+}
