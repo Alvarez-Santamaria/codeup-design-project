@@ -1,9 +1,13 @@
+body {
+    background-color: #EEEEEE;
+}
+
 .logo {
     height: 105px;
     width: 105px;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Anton', sans-serif;
 }
 
@@ -11,6 +15,47 @@ h1 {
     font-family: 'Abel', sans-serif;
 }
 
-#buttons {
-    list-style: none;
+
+#circles .circle {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 8px solid white;
+    padding-top: 30px;
+    margin-left:  100%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+
+
+}
+
+p {
+    text-align: center;
+}
+
+.ipad {
+    width: 80%;
+    display: flex;
+    margin-left: 50px;
+}
+
+#design {
+    background-color: #E6563B;
+}
+
+#develop {
+    background-color: #EB9D3A;
+}
+
+#host {
+    background-color: #00ABA9;
+
+}
+
+#support {
+    background-color: #7CB06C;
 }
