@@ -39,9 +39,16 @@ p {
     text-align: center;
 }
 
-.ipad {
-    width: 80%;
+.btm .ipad {
+    width: 90%;
     display: flex;
+    margin: auto;
+    border: solid #e2e2e2 10px;
+    border-radius: 1%;
+}
+
+.btm #dot {
+    width: 90%;
     margin: auto;
 }
 
@@ -70,7 +77,6 @@ p {
     font-size: small;
     font-weight: bold;
 }
-
 
 
 #D1 {
