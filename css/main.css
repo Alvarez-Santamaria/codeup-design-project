@@ -101,6 +101,7 @@ p {
 
 .btm #man {
     width: 90%;
+    /*height: 285px;*/
     display: flex;
     margin: auto;
     border: solid #e2e2e2 10px;
