@@ -1,3 +1,15 @@
+:root {
+    --light-bg: #FFF;
+}
+
+/*
+* { box-sizing: border-box;}
+*/
+
+.container-lg {
+    padding: 0;
+}
+
 body {
     background-color: #EEEEEE;
 }
@@ -5,6 +17,29 @@ body {
 .logo {
     height: 105px;
     width: 105px;
+    /*margin-top: -10px;*/
+}
+
+/*.profile {
+    height: 80px;
+}*/
+
+.profile {
+    background: var(--light-bg);
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: center;
 }
 
 h1, h2 {
@@ -13,10 +48,13 @@ h1, h2 {
 
 .design {
     font-family: 'Abel', sans-serif;
+    margin-top: 25px;
 }
 
 #dot p .dotty {
+    /*
     margin-right: calc(100% - 20px);
+    */
 }
 
 #circles .circle {
@@ -33,6 +71,10 @@ h1, h2 {
 
 .circle {
     margin: 5px 0;
+}
+
+#btm-sec {
+    margin-top: 100px;
 }
 
 p {
