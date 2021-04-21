@@ -81,7 +81,33 @@ p {
     text-align: center;
 }
 
+
+
 .btm .ipad {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    border: solid #e2e2e2 10px;
+    border-radius: 1%;
+}
+
+.btm #macbook {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    border: solid #e2e2e2 10px;
+    border-radius: 1%;
+}
+
+.btm #man {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    border: solid #e2e2e2 10px;
+    border-radius: 1%;
+}
+
+.btm #security {
     width: 90%;
     display: flex;
     margin: auto;
