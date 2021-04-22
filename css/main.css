@@ -116,7 +116,7 @@ p {
     border-radius: 1%;
 }
 
-.btm #dot {
+.btm #dot, #laptop-dot, #macbook-dot, #man-dot, #security-dot {
     width: 90%;
     margin: auto;
 }
@@ -138,7 +138,7 @@ p {
     background-color: #7CB06C;
 }
 
-#dot .dotty {
+/*#dot */.dotty {
     color: black;
     height: 18px;
     width: 18px;
@@ -148,19 +148,22 @@ p {
 }
 
 
-#D1 {
+.D1 {
     background-color: #E6563B;
 }
 
-#D2 {
+.D2 {
     background-color: #EB9D3A;
 }
 
-#S {
+.S {
     background-color: #7CB06C;
 }
 
-#H {
+.H {
     background-color: #00ABA9;
 }
 
+.feat-proj {
+    font-size: small;
+}
